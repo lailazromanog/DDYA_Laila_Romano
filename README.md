@@ -53,3 +53,30 @@ Se realizó un proceso de preventa y diseño lógico antes de la codificación, 
 - **Lenguaje:** Python (Optimización de listas, manejo de cadenas y estructuras de control).
 - **Documentación Técnica:** Redacción de análisis de requerimientos en formato profesional.
 - **Gestión de Versiones:** Uso avanzado de Git (manejo de ramas o *branches*) para organizar el flujo de trabajo.
+--- 
+# Semana 3  
+Enfocada en el paradigma **Dividir y Conquistar (D&C)** y análisis de complejidad mediante recurrencias.  
+## Proyectos realizados  
+### 1. Gestión de Estudiantes con D&C (`Estudiantes_D&G_Semana 3.py`)  
+Reforma total del sistema de filtrado utilizando recursividad para mejorar la escalabilidad.  
+- **Estrategia:** La función `filtrar_estudiantes_DyC` descompone la lista hasta el caso base (un estudiante).
+- **Lógica:** Divide el rango mediante un punto medio (`mid`), resuelve las mitades y combina los resultados.
+- **Análisis:** Aunque se mantiene una complejidad de $\Theta(n)$, la estructura prepara el código para procesamiento en paralelo.
+
+### 2. Ejercicios de Aplicación (`Ejercicios- Semana 3.pdf`)
+Resolución de problemas clásicos aplicando optimización:
+- **Búsqueda Binaria:** Localización del menor número en arreglos con comportamiento unimodal (decremento/incremento).
+- **Exponenciación Rápida:** Algoritmo recursivo para calcular $a^n$ en tiempo logarítmico $O(\log n)$.
+- **Ordenamiento Mergesort:** Seguimiento paso a paso para ordenar alfabéticamente la cadena "ALGORITMO".
+- **Conteo de Bits:** Uso de búsqueda binaria para identificar números faltantes basados en sumas de bits.
+
+## Estructura del Repositorio - Semana 3
+- **`Estudiantes_D&G_Semana 3.py`**: Código fuente con la implementación de la herramienta D&C.
+- **`Diseño del problema de los estudiantes con D&C.pdf`**: Documentación técnica (Historias de usuario, diagramas de flujo recursivo, secuencia y casos de uso).
+- **`Ejercicios- Semana 3.pdf`**: Análisis detallado y pseudocódigos de los problemas resueltos en clase.
+
+## Tecnologías y Conceptos Aplicados
+- **Paradigma de Diseño:** Dividir, Conquistar y Combinar.
+- **Análisis Matemático:** Notación Big O, Teorema Maestro y Ecuaciones de Recurrencia $T(n) = 2T(n/2) + c$.
+- **Modelado UML:** Diagramas de secuencia para representar la auto-llamada (recursión) y flujo de mensajes.
+
