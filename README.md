@@ -52,7 +52,6 @@ Se realizó un proceso de preventa y diseño lógico antes de la codificación, 
 ## Tecnologías y conceptos aplicados
 - **Lenguaje:** Python (Optimización de listas, manejo de cadenas y estructuras de control).
 - **Documentación Técnica:** Redacción de análisis de requerimientos en formato profesional.
-- **Gestión de Versiones:** Uso avanzado de Git (manejo de ramas o *branches*) para organizar el flujo de trabajo.
 --- 
 # Semana 3  
 Enfocada en el paradigma **Dividir y Conquistar (D&C)** y análisis de complejidad mediante recurrencias.  
@@ -79,4 +78,5 @@ Resolución de problemas clásicos aplicando optimización:
 - **Paradigma de Diseño:** Dividir, Conquistar y Combinar.
 - **Análisis Matemático:** Notación Big O, Teorema Maestro y Ecuaciones de Recurrencia $T(n) = 2T(n/2) + c$.
 - **Modelado UML:** Diagramas de secuencia para representar la auto-llamada (recursión) y flujo de mensajes.
+
 
