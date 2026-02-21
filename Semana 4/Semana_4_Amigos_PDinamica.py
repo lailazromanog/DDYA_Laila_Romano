@@ -20,3 +20,4 @@ def formas_amigos(n, memo = None):
     
 n = int(input("Ingrese el número de amigos:"))
 print("Para", n, "amigos, hay", formas_amigos(n), "formas posibles de estar solor o emparejados.")
+
