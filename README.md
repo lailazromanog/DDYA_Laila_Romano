@@ -107,6 +107,7 @@ Como parte del control de calidad del software, se realizó una explicación det
 
 ## Estructura del Repositorio - Semana 4
 - **`Semana_4_Amigos_PDinamica.py`**: Implementación del problema de emparejamiento con memoización.
+- **`Semana_4_Analisis_Estudiantes_PDinamica.pdf`**: Documentación técnica y analis de complejidad del problema de estudiantes con programación dinámica.
 - **`Semana 4_Estudiantes_PDinamica.py`**: Código optimizado con rangos dinámicos y DP.
 - **`Semana 4_Estudiantes_PDinamica_Tests.py`**: Versión del código con lógica avanzada de validación y manejo de errores.
 - **`Semana 4_Analisis_Taller en clase.pdf`**: Documentación técnica y análisis de complejidad del problema de los amigos.
@@ -115,5 +116,6 @@ Como parte del control de calidad del software, se realizó una explicación det
 - **Memoización:** Almacenamiento de estados para optimización temporal.
 - **Manejo de Excepciones:** Uso de bloques `try-except` y validaciones lógicas para prevenir cierres inesperados.
 - **Complejidad:** Análisis de cómo la memoria (espacio) puede reducir el tiempo de ejecución (tiempo).
+
 
 
