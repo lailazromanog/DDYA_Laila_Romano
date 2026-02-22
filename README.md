@@ -79,4 +79,41 @@ Resolución de problemas clásicos aplicando optimización:
 - **Paradigma de Diseño:** Dividir, Conquistar y Combinar.
 - **Análisis Matemático:** Notación Big O, Teorema Maestro y Ecuaciones de Recurrencia $T(n) = 2T(n/2) + c$.
 - **Modelado UML:** Diagramas de secuencia para representar la auto-llamada (recursión) y flujo de mensajes.
+---
+# Semana 4: Programación Dinámica y Optimización de Algoritmos
+
+En esta semana, el enfoque principal fue la implementación de la Programación Dinámica (Memoización) para optimizar problemas que presentan subproblemas superpuestos, además de fortalecer la robustez de las aplicaciones mediante pruebas de errores.
+
+## Proyectos realizados
+
+### 1. Optimización del Problema de los Amigos
+Se desarrolló una solución para calcular las formas posibles en que *n* amigos pueden quedar solos o emparejados.
+- **Paradigma:** Programación Dinámica (Memoización).
+- **Optimización:** Uso de un diccionario (`memo`) para almacenar resultados de subproblemas ya calculados, evitando la redundancia de la recursividad simple y mejorando drásticamente el tiempo de ejecución para valores grandes de *n*.
+
+### 2. Gestión de Estudiantes V2: Rangos Dinámicos y Robustez
+Actualización del sistema de gestión académica integrando mayor dificultad técnica y control de excepciones.
+- **Análisis por Rangos:** El usuario ahora define un rango específico (índice inicial y final) para calcular el promedio de referencia.
+- **Memoización de Promedios:** El sistema "recuerda" promedios de rangos consultados previamente para optimizar la velocidad de respuesta.
+- **Pruebas de Robustez (Tests):** Implementación de validaciones para entradas no ideales (caracteres inválidos, notas fuera de rango 0-5, índices fuera de límites o rangos invertidos).
+- **Algoritmo de Filtrado:** Uso continuo de **Dividir y Conquistar** para el retorno de la lista de aprobados.
+
+## Demostración de Pruebas (Tests)
+Como parte del control de calidad del software, se realizó una explicación detallada de cómo el sistema maneja los errores de interacción del usuario.
+
+> [!VIDEO]
+> **Video explicativo de los Tests realizados:**
+> [https://youtu.be/HXFeXZ_FI10]
+
+## Estructura del Repositorio - Semana 4
+- **`Semana_4_Amigos_PDinamica.py`**: Implementación del problema de emparejamiento con memoización.
+- **`Semana 4_Estudiantes_PDinamica.py`**: Código optimizado con rangos dinámicos y DP.
+- **`Semana 4_Estudiantes_PDinamica_Tests.py`**: Versión del código con lógica avanzada de validación y manejo de errores.
+- **`Semana 4_Analisis_Taller en clase.pdf`**: Documentación técnica y análisis de complejidad del problema de los amigos.
+
+## Tecnologías y Conceptos Aplicados
+- **Memoización:** Almacenamiento de estados para optimización temporal.
+- **Manejo de Excepciones:** Uso de bloques `try-except` y validaciones lógicas para prevenir cierres inesperados.
+- **Complejidad:** Análisis de cómo la memoria (espacio) puede reducir el tiempo de ejecución (tiempo).
+
 
