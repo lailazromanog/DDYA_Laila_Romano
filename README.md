@@ -101,10 +101,6 @@ Actualización del sistema de gestión académica integrando mayor dificultad t�
 ## Demostración de Pruebas (Tests)
 Como parte del control de calidad del software, se realizó una explicación detallada de cómo el sistema maneja los errores de interacción del usuario.
 
-> [!VIDEO]
-> **Video explicativo de los Tests realizados:**
-> [https://youtu.be/HXFeXZ_FI10]
-
 ## Estructura del Repositorio - Semana 4
 - **`Semana_4_Amigos_PDinamica.py`**: Implementación del problema de emparejamiento con memoización.
 - **`Semana_4_Analisis_Estudiantes_PDinamica.pdf`**: Documentación técnica y analis de complejidad del problema de estudiantes con programación dinámica.
@@ -116,6 +112,27 @@ Como parte del control de calidad del software, se realizó una explicación det
 - **Memoización:** Almacenamiento de estados para optimización temporal.
 - **Manejo de Excepciones:** Uso de bloques `try-except` y validaciones lógicas para prevenir cierres inesperados.
 - **Complejidad:** Análisis de cómo la memoria (espacio) puede reducir el tiempo de ejecución (tiempo).
+---
+# Semana 7: Estructuras de Datos Lineales - Colas de Prioridad
 
+En esta semana se desarrolló un laboratorio práctico en grupo enfocado en la gestión eficiente de flujos de datos mediante estructuras lineales, aplicando lógica de prioridades para la resolución de problemas del mundo real.
 
+## Proyectos realizados
 
+### 1. Sistema de Gestión de Farmacia Hospitalaria (Laboratorio en Grupo)
+Desarrollo de un algoritmo para administrar la entrega de medicamentos en una farmacia, asegurando una atención organizada y priorizada.
+- **Trabajo Colaborativo:** Este proyecto fue diseñado y ejecutado en grupo durante la sesión de clase.
+- **Lógica de Prioridad:** El sistema clasifica a los pacientes en dos categorías: **Críticos** y **Normales**.
+- **Reglas de Negocio:**
+  - Los pacientes críticos siempre tienen prioridad sobre los normales.
+  - Se respeta estrictamente el orden de llegada (FIFO) dentro de cada categoría.
+  - El sistema garantiza que solo un paciente sea atendido a la vez, eliminándolo del registro tras la atención.
+- **Implementación:** Uso de estructuras de datos para manejar el flujo de entrada y salida de pacientes de manera dinámica.
+
+## Estructura del Repositorio - Semana 7
+- **`Lab Semana 7.ipynb`**: Notebook con la implementación del sistema de pacientes, incluyendo los casos de prueba (Tests) para validar el orden de atención y la prioridad.
+
+## Tecnologías y Conceptos Aplicados
+- **Colas (Queues):** Gestión de datos bajo el principio First-In, First-Out.
+- **Priorización Dinámica:** Segmentación de flujos de datos basada en condiciones críticas.
+- **Validación de Casos:** Ejecución de múltiples tests para asegurar que el sistema no pierda el orden de llegada entre pacientes del mismo grupo.
