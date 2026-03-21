@@ -136,3 +136,30 @@ Desarrollo de un algoritmo para administrar la entrega de medicamentos en una fa
 - **Colas (Queues):** Gestión de datos bajo el principio First-In, First-Out.
 - **Priorización Dinámica:** Segmentación de flujos de datos basada en condiciones críticas.
 - **Validación de Casos:** Ejecución de múltiples tests para asegurar que el sistema no pierda el orden de llegada entre pacientes del mismo grupo.
+---
+#Semana 8
+# Semana 8 - Estructuras No Lineales (Árboles)
+
+Este apartado del repositorio contiene el desarrollo del laboratorio de la Semana 8, donde se explora la implementación de estructuras jerárquicas para la optimización de procesos de búsqueda y organización de datos.
+
+## Proyectos realizados
+
+### 1. Gestión de Inventario de Tecnología (Laboratorio en Grupo)
+Desarrollo de un sistema jerárquico diseñado para organizar y administrar el inventario de computadores de una tienda mediante estructuras no lineales.
+- **Trabajo Colaborativo:** Este proyecto fue diseñado y ejecutado en grupo por Laila Romano, Juan Sebastián Garavito y Juan David Abril.
+- **Lógica de Organización:** El inventario se construye utilizando un **Árbol Binario de Búsqueda (BST)**, empleando códigos numéricos únicos como clave principal para cada equipo.
+- **Reglas de Negocio:**
+  - **Jerarquía:** Los elementos se organizan de forma que los códigos menores al nodo actual se ubican a la izquierda y los mayores a la derecha.
+  - **Búsqueda Eficiente:** El sistema permite localizar códigos específicos o identificar su ausencia, informando adicionalmente el nivel de profundidad en el que se encuentran.
+  - **Reportes de Inventario:** Implementación de funciones para visualizar el estado del sistema mediante los recorridos Preorden, Inorden y Postorden.
+  - **Análisis de Balanceo:** Identificación de estructuras degeneradas y propuesta de equilibrio mediante el concepto de árboles AVL para mantener el rendimiento óptimo.
+
+## Estructura del Repositorio - Semana 8
+- **`Semana 8 notebook.ipynb`**: Notebook con la implementación completa de la clase, incluyendo validación de entradas, manejo de excepciones y los casos de prueba solicitados en la guía.
+
+## Tecnologías y Conceptos Aplicados
+- **Árboles Binarios de Búsqueda (BST):** Aplicación de estructuras no lineales para la gestión jerárquica de información.
+- **Recursividad:** Uso de algoritmos recursivos para las operaciones de inserción, búsqueda y recorridos sistemáticos.
+- **Complejidad Algorítmica:** Optimización de tiempos de respuesta, buscando pasar de una complejidad lineal $O(n)$ a una logarítmica $O(\log n)$.
+- **Análisis de Balanceo:** Comprensión de la altura de los árboles y la importancia de las rotaciones para evitar el desequilibrio en la estructura.
+
