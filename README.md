@@ -137,7 +137,6 @@ Desarrollo de un algoritmo para administrar la entrega de medicamentos en una fa
 - **Priorización Dinámica:** Segmentación de flujos de datos basada en condiciones críticas.
 - **Validación de Casos:** Ejecución de múltiples tests para asegurar que el sistema no pierda el orden de llegada entre pacientes del mismo grupo.
 ---
-#Semana 8
 # Semana 8 - Estructuras No Lineales (Árboles)
 
 Este apartado del repositorio contiene el desarrollo del laboratorio de la Semana 8, donde se explora la implementación de estructuras jerárquicas para la optimización de procesos de búsqueda y organización de datos.
