@@ -166,7 +166,7 @@ Desarrollo de un sistema jerárquico diseñado para organizar y administrar el i
 Este apartado detalla la implementación de una red logística interconectada mediante estructuras de datos no lineales, permitiendo optimizar el flujo de mercancías entre diferentes sedes.
 
 ### **Reglas de Negocio:**
-* **Modelado de Red:** La infraestructura se representa como un grafo no dirigido donde cada bodega es un nodo (vértice) y cada ruta de transporte es una conexión (arista).
+* **Modelado de Red:** La infraestructura se representa como un grafo no dirigido donde cada bodega es un nodo y cada ruta de transporte es una conexión .
 * **Normalización de Sedes:** El sistema procesa los nombres de las bodegas para eliminar inconsistencias por espacios o diferencias entre mayúsculas y minúsculas, garantizando la integridad de la red.
 * **Optimización de Trayectorias (BFS):** Aplicación de búsqueda por amplitud para encontrar la ruta con el menor número de escalas posibles entre dos bodegas de la red.
 * **Exploración de Alcance (DFS):** Implementación de búsqueda por profundidad para realizar un censo completo de las conexiones y verificar la conectividad total del sistema logístico.
