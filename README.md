@@ -161,4 +161,23 @@ Desarrollo de un sistema jerárquico diseñado para organizar y administrar el i
 - **Recursividad:** Uso de algoritmos recursivos para las operaciones de inserción, búsqueda y recorridos sistemáticos.
 - **Complejidad Algorítmica:** Optimización de tiempos de respuesta, buscando pasar de una complejidad lineal $O(n)$ a una logarítmica $O(\log n)$.
 - **Análisis de Balanceo:** Comprensión de la altura de los árboles y la importancia de las rotaciones para evitar el desequilibrio en la estructura.
+---
+## Semana 9: Gestión de Red de Bodegas (Grafos)
+Este apartado detalla la implementación de una red logística interconectada mediante estructuras de datos no lineales, permitiendo optimizar el flujo de mercancías entre diferentes sedes.
+
+### **Reglas de Negocio:**
+* **Modelado de Red:** La infraestructura se representa como un grafo no dirigido donde cada bodega es un nodo (vértice) y cada ruta de transporte es una conexión (arista).
+* **Normalización de Sedes:** El sistema procesa los nombres de las bodegas para eliminar inconsistencias por espacios o diferencias entre mayúsculas y minúsculas, garantizando la integridad de la red.
+* **Optimización de Trayectorias (BFS):** Aplicación de búsqueda por amplitud para encontrar la ruta con el menor número de escalas posibles entre dos bodegas de la red.
+* **Exploración de Alcance (DFS):** Implementación de búsqueda por profundidad para realizar un censo completo de las conexiones y verificar la conectividad total del sistema logístico.
+
+## Estructura del Repositorio - Semana 9
+* **`Semana 9 notebook.ipynb`**: Notebook detallado con la descripción del problema, requerimientos funcionales/no funcionales, análisis de complejidad y casos de prueba.
+* **`lab 9.py`**: Código fuente con la lógica de la lista de adyacencia, algoritmos de búsqueda (BFS/DFS) y representación gráfica en consola.
+
+## Tecnologías y Conceptos Aplicados
+* **Grafos y Listas de Adyacencia:** Uso de diccionarios de Python para una representación eficiente en memoria de relaciones complejas.
+* **Algoritmos de Recorrido:** Implementación de BFS (usando colas) y DFS (usando recursividad) para la navegación de estructuras no lineales.
+* **Complejidad Algorítmica:** Análisis de rendimiento en escenarios de grafos dispersos y densos, manteniendo una eficiencia de $O(V + E)$.
+* **Visualización de Red:** Generación de esquemas visuales en consola para facilitar la interpretación de la estructura de las bodegas por parte de usuarios finales.
 
